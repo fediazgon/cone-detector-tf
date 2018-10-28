@@ -1,4 +1,8 @@
 
+.idea
+data/Images
+data/Annotations
+
 # Created by https://www.gitignore.io/api/python,pycharm+all
 
 ### PyCharm+all ###
