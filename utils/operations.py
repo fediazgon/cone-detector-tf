@@ -28,6 +28,8 @@ def extract_crops(img, crop_height, crop_width, step_vertical=None, step_horizon
     """
 
     img_height, img_width = img.shape[:2]
+    crop_height = min(crop_height, img_height)
+    crop_width = min(crop_width, img_width)
 
     # TODO: pre-allocate numpy array
     crops = []

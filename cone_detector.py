@@ -77,7 +77,8 @@ def main():
                     boxes.extend(ops.get_absolute_boxes(
                         box_absolute,
                         boxes_relative[np.any(boxes_relative, axis=1)]))
-                boxes = np.vstack(boxes)
+                if boxes:
+                    boxes = np.vstack(boxes)
 
                 # Remove overlapping boxes
                 boxes = ops.non_max_suppression_fast(
