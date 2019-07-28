@@ -1,6 +1,6 @@
 <h1 align="center">
   <div style="margin:10px;">
-    <img src="https://github.com/fdiazgon/fdiazgon.github.io/blob/master/art/cone-detector-tf-logo.png?raw=true" alt="ansible-monitoring" width="200px">
+    <img src="https://github.com/fediazgon/cone-detector-tf/blob/assets/logo.png?raw=true" alt="project-logo" width="200px">
   </div>
   cone-detector-tf
 </h1>
@@ -16,7 +16,7 @@ Cone detector trained using the <a href="https://github.com/tensorflow/models/tr
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://github.com/fdiazgon/fdiazgon.github.io/blob/master/art/cone-detector-tf-demo.gif?raw=true)
+![project-demo](https://github.com/fediazgon/cone-detector-tf/blob/assets/demo.gif?raw=true?raw=true)
 
 ## Requirements
 
