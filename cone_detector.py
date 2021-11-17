@@ -6,7 +6,8 @@ import time
 
 import cv2
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 from utils import cv_utils
 from utils import operations as ops
@@ -107,7 +108,7 @@ def main():
                 processed_images += 1
 
                 toc = time.time()
-                processing_time_ms = (toc - tic) * 1000
+                processing_time_ms = (toc - tic) * 100
                 logging.debug(
                     'Detected {} objects in {} images in {:.2f} ms'.format(
                         len(boxes), len(crops), processing_time_ms))
